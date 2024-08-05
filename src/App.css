@@ -1,0 +1,31 @@
+/* src/App.css */
+.App {
+  font-family: 'Arial, sans-serif';
+  padding: 20px;
+}
+
+.restaurant-list, .menu, .item-selection, .place-order, .order-tracking {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
